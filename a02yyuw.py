@@ -14,7 +14,7 @@ header = b'\xff'
 class A02YYUW:
     """
     Driver to listen to A02YYUW waterproof ultrasonic sensor data
-    param: uart_id (default 0) e.g. 0 (tx:1/rx:3) 1 (tx:10/rx:9) 2 (tx:17/rx:16) on ESP32 WROOM 
+    param: uart_id (default 2) e.g. 0 (tx:1/rx:3) 1 (tx:10/rx:9) 2 (tx:17/rx:16) on ESP32 WROOM 
      
     Additional information:
     TX can be used to switch between 300ms (more accuracy - PIN HIGH or not connected)
